@@ -3,7 +3,7 @@
 ## Repositorio de github: https://github.com/LuisMi01/Tarea9_LuisMiguelUrbez_TecProgramacion
 
 ## Ejercicios:
-1. El alquiler de bicis
+### 1. El alquiler de bicis
 El objetivo es crear un programa que permita a una empresa de alquiler de bicicletas, mostrar los modelos que se ofrecen en alquiler y los precios.
 
 Se pueden alquilar bicicletas, segways y giroscopios. Para todos, es necesario conocer su marca, modelo y fecha de compra. Las bicicletas están equipadas con un sistema de cambio de marchas. Algunas tienen más velocidades que otras. Los segways y los giroscopios tienen cierta autonomía en kilómetros. Debido a su manillar, el Segway requiere que su piloto tenga una altura mínima.
@@ -48,7 +48,7 @@ Estos son los ciclos que ofrecemos en alquiler:
 - Segways Immotion v8 (0 años) 40 km de autonomía                 18,90€/hora 
 - Segways Segway Ninebot One E+ (0 años) 
   30 km de autonomía                                              18,90€/hora 
-2. Velocidad media versión plurilingüe
+### 2. Velocidad media versión plurilingüe
 Requisitos previos: ejercicio 4 del capítulo El pseudocódigo
 
 Reanudar el ejercicio del cálculo de la velocidad media para hacerlo plurilingüe.
