@@ -2,7 +2,7 @@ package java.Ejercicio1;
 
 import java.util.Scanner;
 
-public class Menu {
+public class Menu implements Gestion{
     Scanner teclado = new Scanner(System.in);
 
     public void menuPrincipal(){
@@ -23,7 +23,7 @@ public class Menu {
                         menuCiclos();
                         break;
                     case 2:
-                        
+                        Gestion.mostrarAlquileres();
                         break;
                     case 3:
                         salir = true;
@@ -57,7 +57,7 @@ public class Menu {
             try{
                 switch (opcion) {
                     case 1:
-                        
+                        Gestion.alquilarLapierre();
                         break;
                     case 2:
                         
@@ -75,7 +75,6 @@ public class Menu {
 
                         break;
                     case 7:
-
                         salir = true;
                         break;
                     default:
@@ -88,5 +87,7 @@ public class Menu {
         }while(salir == false);
 
     }
+
+   
 
 }
