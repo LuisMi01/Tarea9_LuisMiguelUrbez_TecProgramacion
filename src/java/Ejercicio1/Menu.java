@@ -60,19 +60,19 @@ public class Menu implements Gestion{
                         Gestion.alquilarLapierre();
                         break;
                     case 2:
-                        
+                        Gestion.alquilarBtwin();
                         break;
                     case 3:
-                        
+                        Gestion.alquilarSegway();
                         break;
                     case 4:
-
+                        Gestion.alquilarWeebot();
                         break;
                     case 5:
-
+                        Gestion.alquilarImmotion();
                         break;
                     case 6:
-
+                        Gestion.alquilarNinebot();
                         break;
                     case 7:
                         salir = true;
